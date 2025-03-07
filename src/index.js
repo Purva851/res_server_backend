@@ -13,7 +13,7 @@ app.use("/auth", userRouter);
 app.use("/recipes", recipesRouter);
 
 mongoose.connect(
-  "mongodb+srv://purvachaudhari123:purvachaudhari123@cluster0.mlehi.mongodb.net/rec_db?retryWrites=true&w=majority&appName=Cluster0",
+  "mongodb+srv://mainpurvachaudhari123:purvachaudhari123@cluster0.mlehi.mongodb.net/rec_db?retryWrites=true&w=majority&appName=Cluster0",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
